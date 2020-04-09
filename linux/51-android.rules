@@ -1,0 +1,6 @@
+# SHARP AQUOS PHONE SERIE mini SHL24
+SUBSYSTEM=="usb",ATTR{idVendor}=="04dd",ATTR{idProduct}=="978c",MODE="0666",GROUP="plugdev"
+# SONY XPERIA A2 SO-04F
+SUBSYSTEM=="usb",ATTR{idVendor}=="0fce",ATTR{idProduct}=="51a5",MODE="0666",GROUP="plugdev"
+# Qualcomm Thundercomm Turbox AI Kit
+SUBSYSTEM=="usb",ATTR{idVendor}=="05c6",ATTR{idProduct}=="901d",MODE="0666",GROUP="plugdev"
