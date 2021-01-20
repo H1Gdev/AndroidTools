@@ -1,4 +1,6 @@
 * text=auto
 
 linux/* eol=lf
+
 windows/* eol=crlf
+*.bat text eol=crlf
