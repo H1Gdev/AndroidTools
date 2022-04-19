@@ -26,6 +26,8 @@ set ANDROID_HOME=%ANDROID_SDK_LOCATION%
 set ANDROID_NDK_HOME=%ANDROID_NDK_PATH%
 set ANDROID_NDK=%ANDROID_NDK_PATH%
 
-cls
-cmd
-@echo on
+if /i not "%1" == "call" (
+  cls
+  cmd
+  @echo on
+)
